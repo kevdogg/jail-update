@@ -26,7 +26,7 @@ pkg=$(which pkg)
 portsnap=$(which portsnap)
 portmaster=$(which portmaster)
 
-$pkg update 
+$pkg update -f 
 $pkg upgrade
 $portsnap fetch update
 

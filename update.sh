@@ -27,7 +27,7 @@ portsnap=$(which portsnap)
 portmaster=$(which portmaster)
 
 $pkg update -f 
-$pkg upgrade
+$pkg upgrade -y
 $portsnap fetch update
 
 IFS=$'\n'
